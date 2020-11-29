@@ -342,3 +342,5 @@ healthchecksdb
 # Custom ignores
 *.csproj
 *.sln
+.gitignore
+.gitattributes
