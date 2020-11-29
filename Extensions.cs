@@ -50,7 +50,7 @@ namespace RichExtensions
                 return false;
             }
 
-            // Cop is in a vehicle
+            // Ped is in a vehicle
             if (taskInVehicleBasic)
             {
                 Game.LogTrivial($"Ped is in a vehicle.");
