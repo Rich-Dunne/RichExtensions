@@ -18,7 +18,7 @@ namespace RichExtensions
 
     /// <summary>A collection of potentially useful code snippets for GTA/LSPDFR development. 
     /// </summary>
-    public static class Extensions
+    public static class IsPedAmbient
     {
         /// <summary>Determines if a ped can be considered ambient.  Checks any type of ped by default.
         /// </summary>
