@@ -76,6 +76,12 @@ namespace SceneManager.Utils
                         return true;
                     }
                 }
+
+                if (taskAmbientClips)
+                {
+                    //Game.LogTrivial($"Ped only has InVehicleBasic and AmbientClips (ambient)");
+                    return true;
+                }
             }
 
             if (ped.IsOnFoot)
